@@ -1,0 +1,23 @@
+{
+    "folder": "./results",
+    "experiments": [
+        {
+            "name": "example",
+            "global_parameters" : [{
+                "experiments": 1,
+                "seed": 1042
+            }],
+            "algorithms": [
+                {
+                    "name": "rnd",
+                    "configs": [{
+                        "priority": 0,
+                        "parameters": {
+                            "timesteps": 10
+                        }
+                    }]
+                }
+            ]
+        }
+    ]
+}
